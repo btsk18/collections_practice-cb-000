@@ -44,3 +44,10 @@ def find_a(array)
   }
   array
 end
+
+def sum_array(array)
+  sum = array.inject { |sum, n|
+    sum + n
+  }
+  sum
+end
