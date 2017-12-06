@@ -19,3 +19,7 @@ def sort_array_char_count(strings)
   }
   ascending_array
 end
+
+def swap_elements(swaps)
+  swaps[1], swaps[2] = swaps[2], swaps[1] 
+end
