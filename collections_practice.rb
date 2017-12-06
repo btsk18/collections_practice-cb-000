@@ -24,3 +24,7 @@ def swap_elements(swaps)
   swaps[1], swaps[2] = swaps[2], swaps[1]
   swaps
 end
+
+def reverse_array(ints)
+  ints.reverse!
+end
