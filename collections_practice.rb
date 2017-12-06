@@ -58,5 +58,5 @@ def add_s(array)
       s << "s"
     end
   }
-  array
+  # array
 end
