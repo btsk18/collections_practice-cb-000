@@ -54,11 +54,6 @@ end
 
 def add_s(array)
   array.each_with_index.collect { |s, index|
-    if index != 1
-      s << "s"
-    else
-      s
-    end
+    index != 1 ? s << "s" : s
   }
-  # array
 end
