@@ -32,7 +32,7 @@ end
 def kesha_maker(strings)
   new_strings = []
   strings.each { |x|
-    x[3] = "$"
+    x[2] = "$"
     new_strings << x
   }
   new_strings
